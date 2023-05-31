@@ -1,88 +1,46 @@
-.padre{
-    border: solid 1px;
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rosybrown; 
+    padding: 10%;
+
+}
+
+.chico azul {
+   width: 99%; 
+   height:50px;
+   border: 1px; color: rosybrown;
+   margin-bottom: 8px;
+
+}
+
+.azul {
+
+   background-color: aqua; 
+}
+
+.grande {
+    width: 99%;
+    height: 100px;
+    border: 1px; color: rosybrown;
+    margin-bottom: 8px;
+}
+
+.container{
     width: 100%;
-    height: 100vh;
-    display: flex;
-}
+    margin-bottom: 8px;
+    }
 
-.izquierda{
-    /* border: solid 1px red; */
-    width: 30%;
+.mediano {
+    display: inline-block;
+    width: 49%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: blue;
+    border: 1px; color: rosybrown;
+    
 }
 
-.izquierda{
-    /* border: solid 1px red; */
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: blue;
-}
+.margin-derecho{
+    margin-right: 4px;
 
-.derecha{
-    /* border: solid 1px blue; */
-    width: 70%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    background: blue;
-
-}
-
-.up{
-    /* border: solid 1px yellow; */
-    width: 90%;
-    height: 40%;
-    background: white;
-}
-
-.down{
-    /* border: solid 1px pink; */
-    width: 90%;
-    height: 40%;
-    display: flex;
-    align-items: flex-end;
-    background: white;
-}
-
-.up2{
-    /* border: solid 1px yellow; */
-    width: 90%;
-    height: 40%;
-    display: flex;
-    justify-content: flex-end;
-    background: white;
-}
-
-.down2  {
-    /* border: solid 1px pink; */
-    width: 90%;
-    height: 40%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    background: white;
-}
-
-
-.rojo{
-    /* border: solid 1px rgb(78, 17, 27); */
-    width: 90%;
-    height: 90%;
-    background: red;
-}
-
-.rojo2{
-    /* border: solid 1px rgb(78, 17, 27); */
-    width: 95%;
-    height: 90%;
-    background: red;
 }
